@@ -13,6 +13,10 @@ class DataIngestion:
         dataset = self.read_dataset()
         df = dataset[dataset['Salary Estimate'] != '-1']
         return df
+    
+
+    
+    
 
 
 if __name__ == "__main__":
@@ -26,4 +30,3 @@ if __name__ == "__main__":
 
     
         
-  
